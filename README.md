@@ -1,2 +1,0 @@
-# GUFinal-Project
-final project

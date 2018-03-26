@@ -1,0 +1,138 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+header{
+  background-color: #00695c;
+}
+header h1 #one{
+  color: #84ffff;
+}
+header h1 #two{
+  color:#9e9e9e;
+}
+header #log{
+  float: left;
+  margin-top: 10px;
+  border-radius: 5px;
+  margin-left: 300px;
+}
+header #cart{
+float: left;
+margin-top: 20px;
+margin-left: 20px;
+}
+footer{
+  width:100%;
+  height: 40px;
+  background-color: #00695c;
+}
+ul{
+  list-style: none;
+}
+#first li{
+  width:25%;
+  float: left;
+  border-left: 20px solid white;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+
+}
+#sec li{
+  width:25%;
+  float: left;
+  border-left: 20px solid white;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+
+}
+#thrd li{
+  width:25%;
+  float: left;
+  border-left: 20px solid white;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+
+}
+.clearfix::after,
+.clearfix::before{
+  content: "";
+  clear: both;
+  display: table;
+}
+main{
+  width:80%;
+}
+#twilite {
+  position: relative;
+
+}
+
+#det1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+#twilite:hover #det1 {
+  visibility: visible;
+  opacity: 1;
+}
+#harryboter {
+  position: relative;
+
+}
+
+#det2 {
+  position: absolute;
+  top:200px;
+  bottom: 200px;
+  left: 200px;
+  right: 200px;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+#harryboter:hover #det2 {
+  visibility: visible;
+  opacity: 1;
+}#snowwhite {
+  position: relative;
+
+}
+
+#det3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+#snowwhite:hover #det3 {
+  visibility: visible;
+  opacity: 1;
+}
