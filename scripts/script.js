@@ -4,3 +4,9 @@ $('button').click( function() {
                    console.log(counter);
                    $('#cart').val(counter);
                });
+var cart = [];
+$('button').click(function(){
+  cart = $('#cart');
+  cart.push($(.selectedImg));
+
+})
