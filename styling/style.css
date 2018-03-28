@@ -4,3 +4,9 @@
 body{
   margin: 0;
 }
+.selected-img{
+  background-color: red;
+}
+selected-description{
+  background-color: blue;
+}
