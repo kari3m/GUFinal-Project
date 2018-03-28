@@ -89,3 +89,9 @@ span.price {
     margin-bottom: 20px;
   }
 }
+.visability{
+  display: none;
+}
+#expyear,#CVV,#state,#Zip{
+  width:auto;
+}
