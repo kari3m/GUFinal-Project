@@ -9,4 +9,4 @@ $('button').click(function(){
   cart = $('#cart');
   cart.push($(.selectedImg));
 
-})
+});
