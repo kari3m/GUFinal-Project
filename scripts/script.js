@@ -8,5 +8,5 @@ var cart = [];
 $('button').click(function(){
   cart = $('#cart');
   cart.push($('.selectedImg'));
-
+  console.log(cart);
 });
