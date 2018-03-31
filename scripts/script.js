@@ -56,3 +56,16 @@ selectedDiv.appendChild(test);
 //     }
 //     return total
 // }
+$(document).ready(function () {
+$('#btnTweet').click(function () {
+// alert('hello11');
+var textToTweet = "HI its my first time using LOKI its amazing";
+if (textToTweet.length > 140) {
+alert('Tweet should be less than 140 Chars');
+}
+else {
+var twtLink = 'http://twitter.com/home?status=' +encodeURIComponent(textToTweet);
+window.open(twtLink,'_blank');
+}
+});
+});
